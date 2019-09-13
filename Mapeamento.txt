@@ -1,0 +1,20 @@
+Grupo F
+Eduardo Augusto Burger
+João Eduardo Cunha
+Maik Henrique Carminati
+Nicolas Frasson
+
+ADAPTER - 
+	Target - FormatoAudio.java
+	Adapter - AACAdapter.java, AIFFAdapter.java, MP3Adapter.java, WAVAdapter.java, wmaAdapter.java
+	Adaptee - AACPlayer, AIFFSuperPlayer, MP3DJ, WAVPlayer, wmaPlay
+
+FAÇADE -
+	Façade - FormatoAudioFacade.java
+	Classes dos Subsistemas - AACAdapter.java, AIFFAdapter.java, MP3Adapter.java, WAVAdapter.java, wmaAdapter.java 
+
+FACTORYMETHOD -
+	Creator - FormatoAudioFactory.java
+	ConcreteCreator - FormatoAudioFactory.java
+	Product - FormatoAudio.java
+	ConcreteProduct - AACAdapter.java, AIFFAdapter.java, MP3Adapter.java, WAVAdapter.java, wmaAdapter.java
